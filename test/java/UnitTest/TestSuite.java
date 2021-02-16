@@ -9,6 +9,14 @@ import org.junit.runners.Suite;
         TestCategoriesIdProjectsId.class,
         TestCategoriesIdTodos.class,
         TestCategoriesIdTodosId.class,
+        ApiTodosCategoriesTest.class,
+        ApiTodosTest.class,
+        ApiTodosTasksofTest.class,
+        TestProjectIDCategories.class,
+        TestProjects.class,
+        TestProjectsID.class,
+        TestProjectsIDTask.class,
+        TestProjectsIDTaskID.class
 })
 public class TestSuite {
 }  
