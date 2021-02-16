@@ -4,9 +4,10 @@ import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
 import kong.unirest.Unirest;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
-
+@RunWith(RandomTestRunner.class)
 public class TestProjectsIDTask extends TestInitialization{
 
 

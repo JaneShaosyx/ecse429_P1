@@ -4,10 +4,11 @@ import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
 import kong.unirest.Unirest;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+@RunWith(RandomTestRunner.class)
 public class TestCategories extends TestInitialization {
 
     // GET

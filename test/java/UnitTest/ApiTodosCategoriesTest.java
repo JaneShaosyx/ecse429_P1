@@ -4,6 +4,7 @@ import UnitTest.model.CategoriesReadResult;
 import UnitTest.model.CategoriesWriteResult;
 import org.apache.http.HttpStatus;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import java.io.IOException;
 
@@ -13,6 +14,7 @@ import java.io.IOException;
  * @author Haohang Xia (created on 2021-02-15)
  * @version 1.0
  */
+@RunWith(RandomTestRunner.class)
 public class ApiTodosCategoriesTest extends ApiTest {
 
     /**

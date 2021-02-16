@@ -7,6 +7,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -15,7 +16,7 @@ import java.io.InputStreamReader;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-
+@RunWith(RandomTestRunner.class)
 public class TestInitialization {
     private static final String URL = "http://localhost:4567";
 
